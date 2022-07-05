@@ -15,6 +15,17 @@ for num in range(0,101,2):
 print(sum1)
 # 水仙花数 例如 153=3*3*3+5*5*5+1*1*1 水仙花数是指一个 3 位数，它的每个位上的数字的 3次幂之和等于它本身
 # 输出100到999的 水仙花数
-for num2 in range(100,1000):
+cou = 0    # 计数器
+for num2 in range(100, 1000):
+    ge = num2 % 10
+    shi = num2 // 10 % 10  # //整除
+    bai = num2 // 100
+    # print(ge, shi, bai)
+
+    if ge**3+shi**3+bai**3 == num2:
+        cou = cou + 1
+        print(num2)
+print(cou)
+
 
 
