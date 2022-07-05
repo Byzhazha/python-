@@ -26,3 +26,4 @@ for num2 in range(100, 1000):
         cou = cou + 1
         print(num2)
 print(cou)
+print("123")
