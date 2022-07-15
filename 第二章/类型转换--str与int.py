@@ -1,7 +1,7 @@
 name='张三'
 age=20
 #print('我叫'+name+'今年',+age+'岁')
-print('我叫'+name+',今年'+str(age)+'岁') #将int类型通过str（）转换str类型
+print('我叫'+name+',今年'+str(age)+'岁')            #将int类型通过str（）转换str类型
 
 a=10
 b=198.8
