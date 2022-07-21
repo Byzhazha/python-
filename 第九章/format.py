@@ -9,6 +9,11 @@ print("我叫{0}，今年{1}岁".format(name,age))
 
 # 3.f-string
 print(f"我叫{name},今年{age}岁")
+a="I"
+b="Love"
+c="American"
+d=f"{a} {b} {c}"
+print(d)
 
 print("%10d" % 99)           # 10d表示10个宽度
 print("%.3f" % 3.1415926)
