@@ -12,4 +12,3 @@ def fun(num):
 
 list1 = [10, 29, 34, 23, 44, 53, 55]
 print(fun(list1))
-
