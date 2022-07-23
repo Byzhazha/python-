@@ -14,3 +14,11 @@ fun1(a=10,b=20,c=30)
 
 print("java", "c","python")       # def print(self, *args, sep=' ', end='\n', file=None): # known special case of print
 #              所以print 函数是个数可变的位置参数
+
+
+def fun2(*args1,**args2):
+    pass
+
+# def fun3(**args2,*asg12):
+#     pass
+#  在一个函数的定义过程中，既有个数可变的关键字形参，也有个数可变的位置形参，要求，个数可变的位置形参，放在个数可变的关键字之前
