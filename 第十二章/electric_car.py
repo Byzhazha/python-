@@ -49,7 +49,7 @@ class Battery:           # 将实例用作属性
         print(f"This car can go about {range1} miles on full charge")
 
 
-class ElectricCar(Car):
+class ElectricCar(Car):           # 面向对象的三大特征：封装、集成、多态
     """电动汽车的独特之处"""
     def __init__(self, make, model, year):
         """初始化父类的属性
