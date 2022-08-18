@@ -9,6 +9,6 @@ def fib(n):
 
 print(fib(6))
 print("-----------------------")
-for i in range(1,7):
+for i in range(1, 7):
     print(fib(i))
 

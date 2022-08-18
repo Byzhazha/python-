@@ -5,4 +5,4 @@ def fac(n):
         return n*fac(n-1)
 
 
-print(fac(100))
+print(fac(4))

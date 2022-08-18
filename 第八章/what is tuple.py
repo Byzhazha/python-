@@ -8,6 +8,6 @@ print(id(lis))
 s = "hello"
 print(id(s))
 s = s+"world"
-print(s,id(s))       # id 发生变化
+print(s, id(s))       # id 发生变化
 
 
