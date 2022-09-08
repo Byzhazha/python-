@@ -1,3 +1,17 @@
+def insert():
+    pass
+def search():
+    pass
+def delete():
+    pass
+def modify():
+    pass
+def sort():
+    pass
+def total():
+    pass
+def show():
+    pass
 def main():
     while True:
         menu()
@@ -15,19 +29,15 @@ def main():
             elif choice == 2:
                 search()
             elif choice == 3:
-                pass
+                delete()
             elif choice == 4:
-                pass
+                modify()
             elif choice == 5:
-                pass
+                sort()
             elif choice == 6:
-                pass
+                total()
             elif choice == 7:
-                pass
-            elif choice == 7:
-                pass
-
-
+                show()
 def menu():
     print("========================学生管理系统=========================")
     print("------------------------功能菜单----------------------------")
@@ -39,3 +49,5 @@ def menu():
     print("\t\t\t\t\t\t6.统计学生总人数")
     print("\t\t\t\t\t\t7.显示所有学生信息")
     print("\t\t\t\t\t\t0.退出")
+if __name__=='__main__':
+    main()
