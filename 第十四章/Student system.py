@@ -1,17 +1,69 @@
+filename= 'student.txt'
 def insert():
-    pass
+    student_list = []
+    while True:
+        id1 = input("请输入ID（如1001）：")
+        if not id:
+            break
+        name = input("请输入姓名：")
+        if not name:
+            break
+        try:
+            english = int(input("请输入英语成绩"))
+            python = int(input("请输入python成绩"))
+            java = int(input("请输入java成绩"))
+        except:
+            print("输入无效，不是整数类型，请重新输入")
+            continue
+        # 将录入的学生信息保存到字典上
+        student = {"id": id1, "name": name, "english": english, "python": python, "java": java}
+        # 将学生信息添加到列表中
+        student_list.append(student)
+        answer = input("是否继续添加Y/N\n")
+        if answer =='Y':
+            continue
+        else:
+            break
+
+    # 调用save函数
+    save(student_list)
+    print("学生信息录入完毕！")
+
+def save(lst):
+    try:
+        stu_txt=open(filename,'a',encoding='utf-8')
+    except:
+        stu_txt=open(filename,'w',encoding='utf-8')
+    for item in lst:
+        stu_txt.write(str(item)+'\n')
+    stu_txt.close()
+
+
+
 def search():
     pass
+
+
 def delete():
     pass
+
+
 def modify():
     pass
+
+
 def sort():
     pass
+
+
 def total():
     pass
+
+
 def show():
     pass
+
+
 def main():
     while True:
         menu()
@@ -38,6 +90,8 @@ def main():
                 total()
             elif choice == 7:
                 show()
+
+
 def menu():
     print("========================学生管理系统=========================")
     print("------------------------功能菜单----------------------------")
@@ -49,5 +103,8 @@ def menu():
     print("\t\t\t\t\t\t6.统计学生总人数")
     print("\t\t\t\t\t\t7.显示所有学生信息")
     print("\t\t\t\t\t\t0.退出")
-if __name__=='__main__':
+    print("----------------------------------------------------")
+
+
+if __name__ == '__main__':
     main()
