@@ -7,7 +7,6 @@ class Car:
         self.year = year
         self.odometer_reading = 40
 
-
     def get_descriptive_name(self):
         """返回整洁的描述信息"""
         long_name = f"{self.year} {self.make} {self.model}"

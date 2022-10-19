@@ -7,7 +7,5 @@ print(id(lis))
 # 不可变序列 字符串 元组 没有增删改操作
 s = "hello"
 print(id(s))
-s = s+"world"
-print(s, id(s))       # id 发生变化
-
-
+s = s + "world"
+print(s, id(s))  # id 发生变化

@@ -1,7 +1,8 @@
 def add(a, b):
-    return a+b
+    return a + b
+
 
 def div(a, b):
-    return a/b
+    return a / b
 
 # 导入自定义模块

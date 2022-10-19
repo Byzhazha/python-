@@ -9,5 +9,3 @@ while a<10:          print(a)            NameError
 5.语法错误    int a =10              SyntaxError
 6.传入无效的参数    a=int("hello)      valueError
 """
-
-

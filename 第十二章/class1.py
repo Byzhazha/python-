@@ -24,7 +24,6 @@ class Student:  # student 为类的名称（类名）由一个或多个单词组
 def drink():
     print("喝水")
 
+
 def drink():
     print("喝水")
-
-

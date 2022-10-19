@@ -32,4 +32,4 @@ for num4 in range(3):
     ge = num4 % 10
     shi = num4 // 10 % 10
     bai = num4 // 100
-    print(ge+shi+bai)
+    print(ge + shi + bai)

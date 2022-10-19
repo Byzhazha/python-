@@ -1,5 +1,6 @@
 import pageage1.modul1 as ma
 import pageage1.modul2 as f
+
 print(ma.a)
 print(f.b)
 # 导入带有包的模块时注意事项

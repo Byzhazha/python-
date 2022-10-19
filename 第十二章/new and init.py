@@ -10,9 +10,10 @@ class Person(object):
         self.name = name
         self.age = age
 
+
 print("object这个类对象的id为：{0}".format(id(object)))
 print("Person这个类对象得id为：{0}".format(id(Person)))
 
 # 创建Person类的实例对象
-p=Person("张三", 20)
+p = Person("张三", 20)
 print("p1这个Person类的实例对象的id为：{0}".format(id(p)))

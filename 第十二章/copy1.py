@@ -34,5 +34,4 @@ print("---------------------")
 # 深拷贝
 computer3 = copy.deepcopy(computer)
 print(computer, computer.cpu, computer.disk)
-print(computer3, computer3.cpu, computer3.disk)    # 产生新地址
-
+print(computer3, computer3.cpu, computer3.disk)  # 产生新地址

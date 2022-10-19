@@ -1,3 +1,4 @@
 import time
-t=time.gmtime()
+
+t = time.gmtime()
 print(t)
