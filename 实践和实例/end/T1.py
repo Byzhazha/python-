@@ -1,7 +1,7 @@
-sum1 = 0
-a = input("请输入数字为")
-b = set(a)
-print(b)
-for i in b:
-    sum1 += int(i)
-print(f"输出的结果为{sum1}")
+num = input()
+num_split = set(num)
+result = 0
+for i in num_split:
+    result=result+int(i)
+print(result)
+
